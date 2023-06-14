@@ -19,34 +19,60 @@ namespace Dip123
             InitializeComponent();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private static void ShowData(int worksheet, string tableRange)
         {
-
-        }
-
-        private void Welcome_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
+            Workbook wb = excel.Workbooks.Open(System.IO.Directory.GetCurrentDirectory() + "\\database.xlsx");
+            Worksheet ws = wb.Worksheets[worksheet];
+            Range range = ws.Range[tableRange];
+            Form2 form = new Form2();
+            form.SetDataGrid(range.Value);
+            form.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           Microsoft.Office.Interop.Excel.Application excel=new Microsoft.Office.Interop.Excel.Application();
-            Workbook wb=excel.Workbooks.Open("C:\\Users\\wlwil\\OneDrive\\Desktop\\Диплом.xlsx");
-            Worksheet ws = wb.Worksheets[2];
-            Range cell = ws.Range["B23"];
-      //     Range cell = ws.Cells[2,37]; 
-            MessageBox.Show(Convert.ToString(cell.Value));
+            ShowData(4, "B23:B38");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "C23:C38");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "D23:D38");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "EB23:E38");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "F23:F38");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "G23:G38");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "H23:H38");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "I23:I38");
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ShowData(4, "J23:J38");
         }
     }
 }

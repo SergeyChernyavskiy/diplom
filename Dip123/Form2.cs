@@ -17,114 +17,30 @@ namespace Dip123
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public void SetDataGrid(object[,] data)
         {
-
+            DataTable table = ArraytoDatatable(data);
+            dataGridView1.DataSource = table;
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        public static DataTable ArraytoDatatable(Object[,] data)
         {
+            DataTable dt = new DataTable();
+            for (int i = 0; i < data.GetLength(1); i++)
+            {
+                dt.Columns.Add("Column" + (i + 1));
+            }
 
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox8_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox10_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox16_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox15_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox14_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox13_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox11_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox12_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox17_TextChanged(object sender, EventArgs e)
-        {
-
+            for (var i = 0; i < data.GetLength(0); ++i)
+            {
+                DataRow row = dt.NewRow();
+                for (var j = 0; j < data.GetLength(1); ++j)
+                {
+                    row[j] = data[i+1, j+1];
+                }
+                dt.Rows.Add(row);
+            }
+            return dt;
         }
     }
 }

@@ -51,7 +51,7 @@
             this.button7.TabIndex = 10;
             this.button7.Text = "Пастила «Малиновая»";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.Click += new System.EventHandler(this.button2_Click);
             // 
             // button2
             // 
@@ -62,6 +62,7 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "Пастила «Клюквенная»";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button3_Click);
             // 
             // button3
             // 
@@ -72,7 +73,7 @@
             this.button3.TabIndex = 12;
             this.button3.Text = "Зефир «Сливочный»";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -83,6 +84,7 @@
             this.button4.TabIndex = 13;
             this.button4.Text = "Зефир «Яблочный»";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -93,6 +95,7 @@
             this.button5.TabIndex = 14;
             this.button5.Text = "Зефир «Маршмеллоу»";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button8_Click);
             // 
             // button6
             // 
@@ -103,6 +106,7 @@
             this.button6.TabIndex = 15;
             this.button6.Text = "Зефир «В шоколаде»";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -113,6 +117,7 @@
             this.button8.TabIndex = 16;
             this.button8.Text = "Зефир «Киевский»";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button6_Click);
             // 
             // button9
             // 
@@ -123,6 +128,7 @@
             this.button9.TabIndex = 17;
             this.button9.Text = "Зефир «Десертный»";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button7_Click);
             // 
             // Welcome
             // 
@@ -135,7 +141,6 @@
             this.Welcome.TabIndex = 18;
             this.Welcome.Text = "Выберите нужную продукцию";
             this.Welcome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Welcome.Click += new System.EventHandler(this.Welcome_Click);
             // 
             // panel1
             // 
@@ -154,7 +159,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(294, 524);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button1
             // 
