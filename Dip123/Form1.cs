@@ -17,6 +17,8 @@ namespace Dip123
         public Form1()
         {
             InitializeComponent();
+            MainView mainView = new MainView();
+            mainView.ShowDialog();
         }
 
         private void ShowData(List<Worksheet> worksheets)
@@ -87,7 +89,6 @@ namespace Dip123
         }
 
         private void button4_Click(object sender, EventArgs e)
-        {
         }
 
         private void button5_Click(object sender, EventArgs e)

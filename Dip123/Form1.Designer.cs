@@ -28,107 +28,107 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button7 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.button_malina = new System.Windows.Forms.Button();
+            this.button_klukva = new System.Windows.Forms.Button();
+            this.button_kiev = new System.Windows.Forms.Button();
+            this.button_apple = new System.Windows.Forms.Button();
+            this.button_marshmello = new System.Windows.Forms.Button();
+            this.button_chocolad = new System.Windows.Forms.Button();
+            this.button_slivki = new System.Windows.Forms.Button();
+            this.button_desert = new System.Windows.Forms.Button();
             this.Welcome = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_dvuhsloynaya = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button7
+            // button_malina
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Location = new System.Drawing.Point(3, 115);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(107, 46);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "Пастила «Малиновая»";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button2_Click);
+            this.button_malina.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_malina.Location = new System.Drawing.Point(3, 115);
+            this.button_malina.Name = "button_malina";
+            this.button_malina.Size = new System.Drawing.Size(107, 46);
+            this.button_malina.TabIndex = 10;
+            this.button_malina.Text = "Пастила «Малиновая»";
+            this.button_malina.UseVisualStyleBackColor = true;
+            this.button_malina.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button2
+            // button_klukva
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(3, 167);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 46);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Пастила «Клюквенная»";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button3_Click);
+            this.button_klukva.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_klukva.Location = new System.Drawing.Point(3, 167);
+            this.button_klukva.Name = "button_klukva";
+            this.button_klukva.Size = new System.Drawing.Size(107, 46);
+            this.button_klukva.TabIndex = 11;
+            this.button_klukva.Text = "Пастила «Клюквенная»";
+            this.button_klukva.UseVisualStyleBackColor = true;
+            this.button_klukva.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button3
+            // button_kiev
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Location = new System.Drawing.Point(0, 268);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 46);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Зефир «Сливочный»";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button5_Click);
+            this.button_kiev.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_kiev.Location = new System.Drawing.Point(0, 268);
+            this.button_kiev.Name = "button_kiev";
+            this.button_kiev.Size = new System.Drawing.Size(110, 46);
+            this.button_kiev.TabIndex = 12;
+            this.button_kiev.Text = "Зефир «Киевский»";
+            this.button_kiev.UseVisualStyleBackColor = true;
+            this.button_kiev.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button4
+            // button_apple
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Location = new System.Drawing.Point(3, 216);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 46);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Зефир «Яблочный»";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button_apple.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_apple.Location = new System.Drawing.Point(3, 216);
+            this.button_apple.Name = "button_apple";
+            this.button_apple.Size = new System.Drawing.Size(107, 46);
+            this.button_apple.TabIndex = 13;
+            this.button_apple.Text = "Зефир «Сливочный»";
+            this.button_apple.UseVisualStyleBackColor = true;
+            this.button_apple.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // button_marshmello
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Location = new System.Drawing.Point(0, 421);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 42);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Зефир «Маршмеллоу»";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button8_Click);
+            this.button_marshmello.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_marshmello.Location = new System.Drawing.Point(0, 421);
+            this.button_marshmello.Name = "button_marshmello";
+            this.button_marshmello.Size = new System.Drawing.Size(107, 42);
+            this.button_marshmello.TabIndex = 14;
+            this.button_marshmello.Text = "Зефир «Яблочный»";
+            this.button_marshmello.UseVisualStyleBackColor = true;
+            this.button_marshmello.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button6
+            // button_chocolad
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.Location = new System.Drawing.Point(0, 469);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(107, 46);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "Зефир «В шоколаде»";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button9_Click);
+            this.button_chocolad.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_chocolad.Location = new System.Drawing.Point(0, 469);
+            this.button_chocolad.Name = "button_chocolad";
+            this.button_chocolad.Size = new System.Drawing.Size(107, 46);
+            this.button_chocolad.TabIndex = 15;
+            this.button_chocolad.Text = "Зефир «Маршмеллоу»";
+            this.button_chocolad.UseVisualStyleBackColor = true;
+            this.button_chocolad.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button8
+            // button_slivki
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.Location = new System.Drawing.Point(0, 320);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(107, 43);
-            this.button8.TabIndex = 16;
-            this.button8.Text = "Зефир «Киевский»";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button6_Click);
+            this.button_slivki.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_slivki.Location = new System.Drawing.Point(0, 320);
+            this.button_slivki.Name = "button_slivki";
+            this.button_slivki.Size = new System.Drawing.Size(107, 43);
+            this.button_slivki.TabIndex = 16;
+            this.button_slivki.Text = "Зефир «Десертный»";
+            this.button_slivki.UseVisualStyleBackColor = true;
+            this.button_slivki.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button9
+            // button_desert
             // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.Location = new System.Drawing.Point(0, 369);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(107, 46);
-            this.button9.TabIndex = 17;
-            this.button9.Text = "Зефир «Десертный»";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button7_Click);
+            this.button_desert.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_desert.Location = new System.Drawing.Point(0, 369);
+            this.button_desert.Name = "button_desert";
+            this.button_desert.Size = new System.Drawing.Size(107, 46);
+            this.button_desert.TabIndex = 17;
+            this.button_desert.Text = "Зефир «В шоколаде»";
+            this.button_desert.UseVisualStyleBackColor = true;
+            this.button_desert.Click += new System.EventHandler(this.button7_Click);
             // 
             // Welcome
             // 
@@ -146,30 +146,30 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.Welcome);
-            this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button_desert);
+            this.panel1.Controls.Add(this.button_slivki);
+            this.panel1.Controls.Add(this.button_chocolad);
+            this.panel1.Controls.Add(this.button_marshmello);
+            this.panel1.Controls.Add(this.button_apple);
+            this.panel1.Controls.Add(this.button_kiev);
+            this.panel1.Controls.Add(this.button_klukva);
+            this.panel1.Controls.Add(this.button_malina);
+            this.panel1.Controls.Add(this.button_dvuhsloynaya);
             this.panel1.Location = new System.Drawing.Point(1, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(294, 524);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // button_dvuhsloynaya
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(3, 63);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 46);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Пастила «Двухслойная»";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_dvuhsloynaya.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_dvuhsloynaya.Location = new System.Drawing.Point(3, 63);
+            this.button_dvuhsloynaya.Name = "button_dvuhsloynaya";
+            this.button_dvuhsloynaya.Size = new System.Drawing.Size(107, 46);
+            this.button_dvuhsloynaya.TabIndex = 9;
+            this.button_dvuhsloynaya.Text = "Пастила «Двухслойная»";
+            this.button_dvuhsloynaya.UseVisualStyleBackColor = true;
+            this.button_dvuhsloynaya.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -187,17 +187,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button_malina;
+        private System.Windows.Forms.Button button_klukva;
+        private System.Windows.Forms.Button button_kiev;
+        private System.Windows.Forms.Button button_apple;
+        private System.Windows.Forms.Button button_marshmello;
+        private System.Windows.Forms.Button button_chocolad;
+        private System.Windows.Forms.Button button_slivki;
+        private System.Windows.Forms.Button button_desert;
         private System.Windows.Forms.Label Welcome;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_dvuhsloynaya;
     }
 }
 
