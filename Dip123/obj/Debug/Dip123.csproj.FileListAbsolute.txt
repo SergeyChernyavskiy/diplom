@@ -19,10 +19,10 @@ D:\Projects\DotNet\diplom\Dip123\bin\Debug\System.IO.Packaging.dll
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.csproj.AssemblyReference.cache
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.csproj.SuggestedBindingRedirects.cache
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.Form1.resources
-D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.Form2.resources
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.Properties.Resources.resources
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.csproj.GenerateResource.cache
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.csproj.CoreCompileInputs.cache
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.csproj.CopyComplete
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.exe
 D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.pdb
+D:\Projects\DotNet\diplom\Dip123\obj\Debug\Dip123.DataGridView.resources

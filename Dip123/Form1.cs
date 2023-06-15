@@ -19,60 +19,95 @@ namespace Dip123
             InitializeComponent();
         }
 
-        private static void ShowData(int worksheet, string tableRange)
+        private void ShowData(List<Worksheet> worksheets)
         {
-            Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
-            Workbook wb = excel.Workbooks.Open(System.IO.Directory.GetCurrentDirectory() + "\\database.xlsx");
-            Worksheet ws = wb.Worksheets[worksheet];
-            Range range = ws.Range[tableRange];
-            Form2 form = new Form2();
-            form.SetDataGrid(range.Value);
-            form.ShowDialog();
+            DataGridView dataGridView = new DataGridView();
+            dataGridView.SetDataGrid(worksheets);
+            dataGridView.ShowDialog();
+        }
+
+        private Worksheet CreateDataModes(int sheet, List<KeyValuePair<string, string>> columnRanges)
+        {
+            List<Column> columns = new List<Column>();
+            foreach (var columnRange in columnRanges)
+            {
+                Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
+                Workbook wb = excel.Workbooks.Open(System.IO.Directory.GetCurrentDirectory() + "\\database.xlsx");
+                Microsoft.Office.Interop.Excel.Worksheet ws = wb.Worksheets[sheet];
+                var name = ws.Range[columnRange.Key];
+
+                List<string> rows = new List<string>();
+
+                var rangesValues = ws.Range[columnRange.Value].Value;
+                foreach (var value in rangesValues)
+                {
+                    if(value is double)
+                    {
+                        rows.Add(Math.Round((double)value, 2).ToString());
+                    }
+                    else
+                    {
+                        rows.Add((string)value);
+                    }
+                }
+
+                columns.Add(new Column(name.Value as string, rows));
+            }
+            return new Worksheet(sheet, columns);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ShowData(4, "B23:B38");
+            List<Worksheet> worksheets = new List<Worksheet>();
+            worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string>("A22","A24:A38"),
+                new KeyValuePair<string, string>("B1","B24:B38")
+            }));
+            worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string>("A4","A6:A16"),
+                new KeyValuePair<string, string>("B2","B6:B16")
+            }));
+            worksheets.Add(CreateDataModes(7, new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string>("A2","A6:A13"),
+                new KeyValuePair<string, string>("B2","B6:B13")
+            }));
+            ShowData(worksheets);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ShowData(4, "C23:C38");
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ShowData(4, "D23:D38");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ShowData(4, "EB23:E38");
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ShowData(4, "F23:F38");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            ShowData(4, "G23:G38");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            ShowData(4, "H23:H38");
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            ShowData(4, "I23:I38");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            ShowData(4, "J23:J38");
         }
     }
 }

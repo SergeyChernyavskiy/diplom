@@ -1,6 +1,6 @@
 ﻿namespace Dip123
 {
-    partial class Form2
+    partial class DataGridView
     {
         /// <summary>
         /// Required designer variable.
