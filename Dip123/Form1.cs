@@ -47,7 +47,7 @@ namespace Dip123
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ShowData(4, "EB23:E38");
+            ShowData(4, "E23:E38");
         }
 
         private void button5_Click(object sender, EventArgs e)
