@@ -66,12 +66,12 @@ namespace Dip123
             worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A4","A6:A16"),
-                new KeyValuePair<string, string>("B2","B6:B16")
+                new KeyValuePair<string, string>("B2","C6:C16")
             }));
             worksheets.Add(CreateDataModes(7, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A2","A6:A13"),
-                new KeyValuePair<string, string>("B2","B6:B13")
+                new KeyValuePair<string, string>("B2","D6:D13")
             }));
             ShowData(worksheets);
         }
@@ -99,7 +99,23 @@ namespace Dip123
 
         private void KlukvaBtnClick(object sender, EventArgs e)
         {
-
+            List<Worksheet> worksheets = new List<Worksheet>();
+            worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string>("A22","A24:A38"),
+                new KeyValuePair<string, string>("B23","D24:D38")
+            }));
+            worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string>("A4","A6:A16"),
+                new KeyValuePair<string, string>("B2","D6:D16")
+            }));
+            worksheets.Add(CreateDataModes(7, new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string>("A2","A6:A13"),
+                new KeyValuePair<string, string>("B2","D6:D13")
+            }));
+            ShowData(worksheets);
         }
 
         private void BackPastilaBtnClick(object sender, EventArgs e)
