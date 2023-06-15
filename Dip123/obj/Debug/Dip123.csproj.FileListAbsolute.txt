@@ -40,3 +40,6 @@ C:\Users\wlwil\source\repos\diplom\Dip123\obj\Debug\Dip123.csproj.CoreCompileInp
 C:\Users\wlwil\source\repos\diplom\Dip123\obj\Debug\Dip123.csproj.CopyComplete
 C:\Users\wlwil\source\repos\diplom\Dip123\obj\Debug\Dip123.exe
 C:\Users\wlwil\source\repos\diplom\Dip123\obj\Debug\Dip123.pdb
+C:\Users\wlwil\source\repos\diplom\Dip123\obj\Debug\Dip123.PastilaView.resources
+C:\Users\wlwil\source\repos\diplom\Dip123\obj\Debug\Dip123.ZefirView.resources
+C:\Users\wlwil\source\repos\diplom\Dip123\obj\Debug\Dip123.MainView.resources

@@ -17,6 +17,8 @@ namespace Dip123
         public Form1()
         {
             InitializeComponent();
+            MainView mainView = new MainView();
+            mainView.ShowDialog();
         }
 
         private static void ShowData(int worksheet, string tableRange)
