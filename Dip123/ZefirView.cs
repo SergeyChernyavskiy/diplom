@@ -64,7 +64,7 @@ namespace Dip123
             worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A22","A24:A38"),
-                new KeyValuePair<string, string>("B23","E24:E38")
+                new KeyValuePair<string, string>("E23","E24:E38")
             }));
             worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
             {
@@ -85,7 +85,7 @@ namespace Dip123
             worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A22","A24:A38"),
-                new KeyValuePair<string, string>("B23","F24:F38")
+                new KeyValuePair<string, string>("F23","F24:F38")
             }));
             worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
             {
@@ -106,7 +106,7 @@ namespace Dip123
             worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A22","A24:A38"),
-                new KeyValuePair<string, string>("B23","G24:G38")
+                new KeyValuePair<string, string>("G23","G24:G38")
             }));
             worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
             {
@@ -127,7 +127,7 @@ namespace Dip123
             worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A22","A24:A38"),
-                new KeyValuePair<string, string>("B23","H24:H38")
+                new KeyValuePair<string, string>("H23","H24:H38")
             }));
             worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
             {
@@ -148,7 +148,7 @@ namespace Dip123
             worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A22","A24:A38"),
-                new KeyValuePair<string, string>("B23","I24:I38")
+                new KeyValuePair<string, string>("I23","I24:I38")
             }));
             worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
             {
@@ -169,7 +169,7 @@ namespace Dip123
             worksheets.Add(CreateDataModes(4, new List<KeyValuePair<string, string>>()
             {
                 new KeyValuePair<string, string>("A22","A24:A38"),
-                new KeyValuePair<string, string>("B23","G24:G38")
+                new KeyValuePair<string, string>("J23","G24:G38")
             }));
             worksheets.Add(CreateDataModes(6, new List<KeyValuePair<string, string>>()
             {
